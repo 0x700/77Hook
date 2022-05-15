@@ -432,10 +432,10 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "77Hook",
+		Name = "Mercury",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://77hook.club/main"
+		Link = "https://github.com/deeeity/mercury-lib"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
